@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="loginho.ico" type="image/x-icon">
+    <title>Seja Bem vindo</title>
+</head>
+<body>
+    <h1>Bem vindo(a) à minha página de apresentação.</h1>
+    <p>A linguagem é mais da metade das coisas fundamentais para as nossas interações sociais, eu acredito que através da comunicação e do comportamento a imagem que queremos passar pode ser bem aceita ou até mal vista dependendo do comportamento ou da comunicação.</p>
+    <h2>O que vale a pena?</h2>
+    <p>As pessoas tem seus objetivos e elas farão de tudo para alcançar suas metas e realizar seus sonhos, nessa estrada é onde entra nossa oferta de apoio à essas pessoas. <br>
+    O que realmente vale a pena é a certeza de que você é uma peça fundamental para a realização dos sonhos das outras pessoas, seja com palavras, produto ou serviço isso é o que vale a pena no final das contas.
+    </p>
+    <h2>Dedicação em virtude do próximo:</h2>
+    <p>O que convém pensar é o seguinte, assim como um estudante entrega seu tempo, esforço e dedicação nos estudos competi nós fazer da mesma forma não só como um estudante, mas também como professor, trabalhador e empresário. <br>
+    O nosso tempo deve ser empregado para beneficiar não só nós mais também a todos e isso acontece quando deixamos os prazeres egoístas e momentâneos para aprender novas habilidades capaz de impactar vidas gerando valor para as pessoas, dessa forma você realiza seu papel social.</p>
+    <h2>Ajudar e ser ajudado, essa é a questão?</h2>
+    <p>Essa não é só a questão, mas também uma fonte de prosperidade. <br>
+    Todos nós temos simpatia por aqueles que ajudam os outros embora essa pessoa tenha uma vida de luxo, contudo ela usa uma pequena parcela do seu tempo e dinheiro para aliviar os necessitados. <br>
+    O dinheiro sempre volta para aquele que distribui, os gastos do egoísta está sempre um passo a frente de sua renda, os gastos do generoso está sempre um passo atrás de sua renda. <br>
+    O dinheiro é para servi as pessoas, quem tem essa mentalidade é próspero.</p>
+    <h3>Quem sou eu?</h3>
+    <p>Eu me chamo Bruno e estou com sede de trabalho, eu me considero esforçado e corajoso, prezo muito pela honestidade e respeito.</p>
+    <p>Tenho o <strong style="color: crimson;">ensino médio completo</strong> e diploma ensino técnico pelo Instituto Federal;</p>
+    <p>Acesse meu vídeo público no YouTube para ter noção da minha pessoa, basta clicar no card do vídeo abaixo ou errar a senha de acesso para essa página.</p>
+    
+    <ul style="text-align: left;"><p>Conhecimentos:</p>
+      <li>AutoCAD;</li>
+      <li>Estação total;</li>
+      <li>Altimetria;</li>
+      <li>Planimetria;</li>
+      <li>Informática;</li>
+      <li>Ensaios de solos;</li>
+      <li>Hidrologia;</li>
+      <li>GPS, Mapeamento e Google Earth;</li>
+    </ul>
+    <ul style="text-align: left;"><p>Habilidades:</p>
+      <li>HTML,CSS e JavaScript;</li>
+      <li>Python;</li>
+      <li>Sistema Operacional Windows;</li>
+      <li>Digitação cega;</li>
+      <li>Blender;</li>
+      <li>DaVinci Resolve 19;</li>
+      <li>OBS Studio;</li>
+      <li>Gimp;</li>
+    </ul>
+    <ul style="text-align: left;">
+      <p>Feitos:</p>
+      <li>Já trabalhei de vendedor;</li>
+      <li>Já trabalhei de atendente;</li>
+      <li>Já trabalhei de repositor;</li>
+      <li>Já trabalhei de serviços gerais, lavar prato, cadeira, piso e etc;</li>
+      <li>Já trabalhei de entregador;</li> 
+    </ul>
+    <p>Todos os trabalhos mencionados nos Feitos foi realizado em uma lanchonete próxima à rodoviária na minha cidade, no período eu estava cursando o terceiro ano do ensino médio à noite.</p>
+      <p>Trabalhei por mais de um ano acordando às cinco horas para está lá as seis horas, a carga horária diária era das seis até as quatro horas e o trabalho era variado sempre alternando entre as funções, eu e mais dois funcionários além do chefe.
+      </p>
+    <!--<div>
+      <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/y3dsm6smTiE"
+          frameborder="0"
+          allowfullscreen>
+      </iframe> 
+    </div>-->
+    <div class="mural">
+      <div>
+          <h2>Um pouco sobre mim</h2>
+      
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/y3dsm6smTiE" frameborder="0" allowfullscreen></iframe>
+          <p><i>Meu histórico acadêmico e biografia;</i></p>
+      </div>
+      <div>
+        <img src="IMG-20180928-WA0035.jpg" width="500" height="300" class="foto foto2" alt="Outra Foto">
+        <p><i>Movimento de célula da igreja;</i></p>
+        </div>
+        <div> <img src="IMG-20180928-WA0036.jpg" width="300" height="500" class="foto foto1" alt="Minha Foto">
+        <p><i>Evento realizado na igreja;</i></p></div>
+    </div>
+    
+    
+    <script>
+        // Função de senha
+        function verificarSenha() {
+          const senhaCorreta = "3702"; // Senha definida
+          const senhaDigitada = prompt("Digite a senha para acessar a página:");
+    
+          if (senhaDigitada === senhaCorreta) {
+            alert("Senha correta! Seja bem vindo à minha biografia.");
+            document.body.style.visibility = "visible"; // Exibe o conteúdo
+            document.querySelector("svg").style.visibility = "visible"; // Torna o SVG visível
+            document.querySelector(".linha").style.strokeDashoffset = 0; // Inicia a animação
+          } else {
+            alert("Senha incorreta. Você será redirecionado ao meu vídeo público no YouTube.");
+            window.location.href = "https://youtu.be/YHquigGdWiU?si=FnE3Tbkx2wbdIbFy"; // Redireciona se a senha estiver errada
+          }
+        }
+    
+        // Chama a função de senha
+        verificarSenha();
+      </script>
+      
+</body>
+</html>

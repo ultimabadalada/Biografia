@@ -1,0 +1,32 @@
+div.mural {
+    background-color: rgb(143, 237, 100);
+    text-align: center;
+    border-radius: 20px;
+    width: 90%; /* Ajuste para 90% da largura da tela */
+    max-width: 800px; /* Limite de 800px */
+    height: auto; /* A altura se ajusta automaticamente */
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    overflow: hidden; /* Impede que o conteúdo ultrapasse a largura da div */
+    word-wrap: break-word; /* Garante que palavras longas se quebrem e não criem barra lateral */
+}
+
+img {
+    border-radius: 20px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+iframe {
+    border-radius: 20px;
+    max-width: 100%; /* Garante que o iframe não ultrapasse a largura da div */
+    height: auto;
+}
+
+/* Media query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    div.mural {
+        width: 95%; /* Ajusta a largura para 95% em telas pequenas */
+    }
+}
